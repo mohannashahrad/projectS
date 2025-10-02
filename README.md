@@ -1,5 +1,6 @@
-# projectS
+# Project S*
 ## Storate System list
-### DataBase
-### FileSystem
-###
+### F=FileStorage, B=BlockStorage, O=ObjectStorage
+HDFS (F), 
+Ceph (FBO)
+
