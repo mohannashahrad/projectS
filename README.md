@@ -15,9 +15,13 @@ Flash Storage
 
 ## Transparent Performance-Disruptive Indirections
 GC\
-Caching\
+Caching (eviction rate , miss/hit ratios)\
 Replication\
-Redundancy (e.g.,EC)
+Redundancy (e.g.,EC) \ 
+Write-ahead log (WAL) flushing \ 
+Index rebuilds \ 
+SSD wear-leveling \ 
+Filesystem journaling
 
 ## Performance Goals
 Avg/Median Latency\
@@ -34,4 +38,6 @@ IODA: https://dl.acm.org/doi/pdf/10.1145/3477132.3483573 \
 Pathological class for (A type of) GC: https://dl.acm.org/doi/pdf/10.1145/3720430 \
 A GC-Aware Fair Scheduler for SSD: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8863523 \
 GC-Aware Request Steering for SSD-Based RAIDs: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9000716
+
+
 
